@@ -1,0 +1,7 @@
+windows:
+  - name: sample-two-panes
+    root: ~/Projects/pool_shark
+    layout: even-horizontal
+    panes:
+      - ruby ./pool_shark.rb
+      - ruby ./pool_shark_client.rb
